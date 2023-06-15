@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
 
 *{
     box-sizing: border-box;
@@ -109,4 +110,32 @@ img{
 .body-p{
     color: #1f2937;
 
+}
+footer{
+    display: flex;
+    background-color:#e5e7eb ;
+    justify-content: center;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 40px;
+}
+.goal{
+    font-size: 32px;
+    color: #1f2937;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    padding: 16px;
+    text-align: center;
+}
+.author{
+    font-size: 32px;
+    color: #1f2937;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 40px;
+    padding-right: 70px;
 }
